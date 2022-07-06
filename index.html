@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ejercicio Dados</title>
+    <meta charset="UTF-8" />
+    <LINK REL=StyleSheet HREF="style.css" TYPE="text/css">
+  </head>
+  <body>
+    <div class="cuadro">
+    <h3>Hacer una aplicación web que al apretar un botón simule el lanzamiento de dos dados y sumarlos</h3>
+    <button class="boton" onclick="lanzardados()">Lanzar dados</button>
+    <div class="row">
+        <div class="imagenesdedados">
+            <img src="./icono.png" id="imagendado1">
+        </div>
+        <div class="imagenesdedados">
+            <img src="./icono.png" id="imagendado2">
+        </div>
+    </div>
+  </div>
+  <div class="cuadro2">
+    <div>
+    <p>La suma de los dados es:</p>
+    <p id="sumaDados">?</p>
+    <p>La cantidad de veces que salió el número 7 es:</p>
+    <p id="cantidadSiete">?</p>
+    </div>
+  </div>
+    <script src="archivo.js"></script>
+  </body>
+</html>
